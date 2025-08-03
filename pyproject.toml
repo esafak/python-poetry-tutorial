@@ -1,3 +1,7 @@
+[project]
+name = "foo"
+requires-python = "~=3.13"
+
 [tool.poetry]
 name = "poetry_tutorial_project"
 version = "0.1.0"
@@ -18,7 +22,6 @@ keywords = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
 loguru = "*"
 psutil = "*"
 
